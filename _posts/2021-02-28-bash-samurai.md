@@ -17,11 +17,11 @@ paginate: true
 
 Todo hacker etico que se respete debera saber defenderse como un Samurai con herramientas nativas como es bash.
 
-En esta ocacion traigo un manual de nivel bajo-medio a avanzado en tecnicas defensivas y ofensivas de ciberseguridad, es una recopilacion de 
+En esta ocasion les traigo un manual de nivel bajo-medio a avanzado en tecnicas defensivas y ofensivas de ciberseguridad, es una recopilacion de 
 todo lo que he aprendido y de mis apuntes que quiero compartir con la comunidad.
 
 En esta guia aprenderas a crear:
-    # script
+    # script \n
     # herramientas de la linea de comando como:
          # awk
          # cut   
