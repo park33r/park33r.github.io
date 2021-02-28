@@ -15,7 +15,7 @@ author: park33r
 ---
 En esta seccion encontrara cheat sheet o hojas de trucos con los comandos mas basicos sin profundisar mucho,para tener los comandos mas usados a la mano
 
-Nmap  cheat-sheet/nmap.pdf
+Nmap  [link](cheat-sheet/nmap.pdf)
 
 
 
