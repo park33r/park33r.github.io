@@ -4,8 +4,8 @@ layout: post
 title: Bash Samurai
 subtitle: guia de bash para maniobras de ciberseguridad de tu dia a dia.
 description: Aprenderas a utilizar el lenguaje bash y la linea de comando como un experto en la ciberseguridad
-image: https://github.com/park33r/park33r.github.io/blob/master/assets/img/samurai.jpg
-optimized_image: https://github.com/park33r/park33r.github.io/blob/master/assets/img/samurai.jpg
+image: https://github.com/park33r/park33r.github.io/blob/master/images/thumb-350-900011.jpg
+optimized_image: https://github.com/park33r/park33r.github.io/blob/master/images/thumb-350-900011.jpg
 category: life
 tags:
   - books
