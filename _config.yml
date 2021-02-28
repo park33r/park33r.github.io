@@ -1,14 +1,13 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Park33r
+title: Hacking | Repositorio
+description: 
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - Hacking etico
+  - Ciberseguridad
+  - Programacion
+  - Pdf
+  - Cheat-Sheet
 show_hero: true
 menu:
   - title: Home
@@ -25,9 +24,9 @@ disqus_username: disqus_username
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
+github_username: park33r
 facebook_username: facebook_username
-twitter_username: twitter_username
+twitter_username: _park33r
 instagram_username: instagram_username
 linkedin_username: linkedin_username
 medium_username: medium_username
