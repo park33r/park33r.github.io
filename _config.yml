@@ -11,11 +11,16 @@ tags:
 show_hero: true
 menu:
   - title: Home
-  - url: /
-  - title: Cheat-sheet
-  - url: _posts/2021-02-28-cheat-sheet.md
-  - title: Bash Samurai
-  - url: _posts/2021-02-28-bash-samurai.md
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+email: youremail@test.com
+disqus_username: disqus_username
+
 
 
 # Social Media Settings
