@@ -4,8 +4,8 @@ layout: post
 title: Bash Samurai
 subtitle: guia de bash para maniobras de ciberseguridad de tu dia a dia.
 description: Aprenderas a utilizar el lenguaje bash y la linea de comando como un experto en la ciberseguridad
-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Ffineartamerica.com%2Ffeatured%2F12-samurai-danilov-ilya.html&psig=AOvVaw3dRLpuMgngURqq1TuGl2xo&ust=1614612709478000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjo7ZnzjO8CFQAAAAAdAAAAABAE
-optimized_image: https://www.google.com/url?sa=i&url=https%3A%2F%2Ffineartamerica.com%2Ffeatured%2F12-samurai-danilov-ilya.html&psig=AOvVaw3dRLpuMgngURqq1TuGl2xo&ust=1614612709478000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjo7ZnzjO8CFQAAAAAdAAAAABAE
+image: /assets/img/thumb-350-900011.jpg
+optimized_image: /assets/img/thumb-350-900011.jpg
 category: life
 tags:
   - books
