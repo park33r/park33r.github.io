@@ -15,13 +15,19 @@ author: park33r
 paginate: true
 ---
 
-Todo hacker etico que se respeta debera saber defenderse como un samurai con herramientas nativas como es bash.
+Todo hacker etico que se respete debera saber defenderse como un Samurai con herramientas nativas como es bash.
 
-En esta ocacion traigo un manual de nivel bajo-medio a avanzado en tecnicas defensivas y ofensivas de civerseguridad, es una recopilacion de 
-todo lo que he aprendido y de mis apuntes que quiero compartir la comunidad.
+En esta ocacion traigo un manual de nivel bajo-medio a avanzado en tecnicas defensivas y ofensivas de ciberseguridad, es una recopilacion de 
+todo lo que he aprendido y de mis apuntes que quiero compartir con la comunidad.
 
-En esta guia aprenderas a crear script, aprender el uso de expreciones regulares, saber utilizar las herramientas de la linea de comando como
-awk,cut,grep,head y muchas mas.
+En esta guia aprenderas a crear:
+    # script
+    # herramientas de la linea de comando como:
+         # awk
+         # cut   
+         # grep
+         # head y muchas mas
 
+En algun momento ya sea en una auditoria o alguna practica nos podemos encontrar con que no tenemos a mano herramientas como nmap o el arsenal que trae kali linux ya sea por diferentes razones,es devido a eso que saber bash orientado a la ciberseguridad podremos con tan solo unas pocas lineas crear nuestras pequeñas pero potentes herramientas.
 
 
