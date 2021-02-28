@@ -9,7 +9,7 @@ optimized_image: /assets/img/cheatP.jpg
 category: herramientas
 tags:
   - cheat-sheet
-  - hakcing-etico
+  - hacking-etico
   - ciberseguridad
 author: park33r
 ---
