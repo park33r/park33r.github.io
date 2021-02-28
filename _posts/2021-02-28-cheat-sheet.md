@@ -6,7 +6,7 @@ subtitle: Apuntes de comandos
 description: En este apartado encontraras cheat-sheet de varias herramientas
 image: /assets/img/cheatG.jpg
 optimized_image: /assets/img/cheatP.jpg
-category: css
+category: herramientas
 tags:
   - cheat-sheet
   - hakcing-etico
