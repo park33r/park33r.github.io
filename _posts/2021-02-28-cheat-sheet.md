@@ -1,5 +1,5 @@
 ---
-date: 2018-10-09 12:26:40
+date: 28/02/2021
 layout: post
 title: Cheat-Sheet
 subtitle: Apuntes de comandos
