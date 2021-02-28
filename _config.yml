@@ -11,8 +11,11 @@ tags:
 show_hero: true
 menu:
   - title: Home
-    url: /
- 
+  - url: /
+  - title: Cheat-sheet
+  - url: _posts/2021-02-28-cheat-sheet.md
+  - title: Bash Samurai
+  - url: _posts/2021-02-28-bash-samurai.md
 
 
 # Social Media Settings
