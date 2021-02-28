@@ -6,11 +6,12 @@ subtitle: guia de bash para maniobras de ciberseguridad de tu dia a dia.
 description: Aprenderas a utilizar el lenguaje bash y la linea de comando como un experto en la ciberseguridad
 image: ../assets/img/script.jpg
 optimized_image: ../assets/img/script.jpg
-category: life
+category: Bash ciberseguridad
 tags:
-  - books
-  - read
-author: thiagorossener
+  - scripting
+  - bash
+  - ciberseguridad
+author: park33r
 paginate: true
 ---
 
