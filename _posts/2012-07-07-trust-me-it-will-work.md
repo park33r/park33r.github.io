@@ -1,16 +1,17 @@
 ---
 date: 2018-03-12 12:26:40
 layout: post
-title: Trust me, it will work
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559821648/theme1_eoyjtl.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559821648/theme1_eoyjtl.jpg
-category: 'tips'
+title: Ingenieria Social
+subtitle: Muchas veces la falla de seguridad se encuentra en la capa 8
+description: En esta seccion encontraras todo lo referido a ingenieria social,pnl leyes de presuacion y mas
+image: assets/img/pnlG.jpg
+optimized_image: assets/img/pnlG.jpg
+category: ''
 tags:
-  - languages
-  - tips
-author: thiagorossener
+  - lenguaje no verbal
+  - ingenieria social
+  - persuacion
+author: Park33r
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
