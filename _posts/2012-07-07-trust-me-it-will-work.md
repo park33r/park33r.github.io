@@ -3,7 +3,7 @@ date: 2018-03-12 12:26:40
 layout: post
 title: El eslavon mas debil
 subtitle: Muchas veces la falla de seguridad se encuentra en la capa 8
-description: En esta seccion encontraras todo lo referido a ingenieria social,pnl leyes de presuacion y mas
+description: En esta seccion encontraras todo lo referido a ingenieria social,PNL leyes de persuacion y mas
 image: assets/img/pnlP.jpg
 optimized_image: assets/img/pnlG.jpg
 category: 'Ingenieria Social'
