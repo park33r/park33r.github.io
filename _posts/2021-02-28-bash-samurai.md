@@ -1,7 +1,7 @@
 ---
 date: 2018-11-22 12:26:40
 layout: post
-title: Bash Samurai [muy pronto]
+title: Bash Samurai [MUY PRONTO]
 subtitle: guia de bash para maniobras de ciberseguridad de tu dia a dia.
 description: Aprenderas a utilizar el lenguaje bash y la linea de comando como un experto en la ciberseguridad
 image: /assets/img/samuraiG.jpg
