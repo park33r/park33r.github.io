@@ -5,7 +5,7 @@ title: El eslavon mas debil
 subtitle: Muchas veces la falla de seguridad se encuentra en la capa 8
 description: En esta seccion encontraras todo lo referido a ingenieria social,PNL leyes de persuacion y mas
 image: assets/img/pnlG.jpg
-optimized_image: assets/img/pnlP.jpg
+optimized_image: assets/img/pnlG.jpg
 category: 'Ingenieria Social'
 tags:
   - lenguaje no verbal
