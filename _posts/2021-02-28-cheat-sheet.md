@@ -17,7 +17,7 @@ En esta seccion encontraras cheat sheet o hojas de trucos con los comandos mas b
 
 <strong>Scanners:</strong><br>
 
-&nbsp;<em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
 
 <strong>Fuzzing:</strong><br>
 
