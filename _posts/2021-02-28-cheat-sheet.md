@@ -15,6 +15,17 @@ author: park33r
 ---
 En esta seccion encontraras cheat sheet o hojas de trucos con los comandos mas basicos sin profundisar mucho,para tener los comandos mas usados a la mano
 
-  #[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)
+#####Scanners:#####
+  
+  ######Nmap(https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)######
+
+#####Fuzzing:#####
+
+  ######WFUZZ######
+  
+    
+  
+  
+  
 
 
