@@ -32,7 +32,7 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
  <em>Inyeccion SQL:</em>    
 * <em>bypass</em><br>
 Aqui podemos ver la parte del front-end de como seria la consulta inyectando el payload admin' or 1=1 -- -<br>
-![/assets/img/sqli/panel_bypass.png]
+![] (/assets/img/sqli/panel_bypass.png)
 y la back-end de la consulta:<br>
   ```js
   GET * from database WHERE username='$username' and password='$password'
