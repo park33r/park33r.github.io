@@ -20,6 +20,10 @@ En esta seccion encontraras cheat sheet o hojas de trucos con los comandos mas b
 
 <strong>Fuzzing:</strong><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Wfuzz<br>
+  -c salida en color<br>
+  -hc (hidden code) ocultar codigo y el numero de codigo [404, 403, etc]<br>
+  -u direccion del dominio<br>
+  -w ruta del diccionario a utilizar<br>
 ```js
   wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt 
     
