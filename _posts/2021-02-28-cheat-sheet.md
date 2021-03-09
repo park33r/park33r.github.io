@@ -20,7 +20,7 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
 * <em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
 
 <em>Fuzzing:</em>
-* <em>Wfuzz<br>
+* <em>Wfuzz</em><br>
   -c salida en color<br>
   -hc (hidden code) ocultar codigo y el numero de codigo [404, 403, etc]<br>
   -u direccion del dominio<br>
@@ -30,7 +30,7 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
   wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt 
  ```
 <em>Inyeccion SQL:</em>    
-  * <em>bypass<br>
+  * <em>bypass</em><br>
   Si la consulta a la base de datos a la hora de ingresar desde el panel de login es la siguiente:<br>
   ```js
   GET * from database WHERE username='$username' and password='$password'
