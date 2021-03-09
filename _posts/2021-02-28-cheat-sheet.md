@@ -31,7 +31,7 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
  ```
  <em>Inyeccion SQL:</em>    
 * <em>bypass</em><br>
-Esto es una consulta a una base de datos:<br>
+Esto es una consulta a una base de datos para iniciar sesion:<br>
  ```js
   GET * from database WHERE username='$username' and password='$password'
   ```
