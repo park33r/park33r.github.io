@@ -16,10 +16,10 @@ author: park33r
 En esta seccion encontraras cheat sheet o hojas de trucos con los comandos mas basicos sin profundisar mucho,para tener los comandos mas usados a la mano
 
 <strong>Scanners:</strong><br>
-*<em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
+* <em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
 
 <strong>Fuzzing:</strong><br>
-*<em>Wfuzz<br>
+* <em>Wfuzz<br>
   -c salida en color<br>
   -hc (hidden code) ocultar codigo y el numero de codigo [404, 403, etc]<br>
   -u direccion del dominio<br>
