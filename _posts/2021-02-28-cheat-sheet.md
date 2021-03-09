@@ -1,6 +1,5 @@
 ---
 date: 28/02/2021
-background: /assets/img/cheatG.jpg
 layout: post
 title: Cheat-Sheet
 subtitle: Apuntes de comandos
