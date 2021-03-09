@@ -21,6 +21,7 @@ En esta seccion encontraras cheat sheet o hojas de trucos con los comandos mas b
 <strong>Fuzzing:</strong><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Wfuzz<br>
 ```js
+  wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt 
     
   ```
     
