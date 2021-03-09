@@ -44,4 +44,7 @@ del password con -- - el cual indica que lo siguiente que viene no se tome en cu
   GET * from database WHERE username='' or 1=1 -- - and password=''
  ```
 vemos que en username se abre con la comilla y se cierra inmediatamente gracias a la comilla que hemos puesto,es decir que queda vacio,agregandole un o en ingles OR y sabiendo que 1=1 siempre es verdadero,comentando el and password con (-- -), si es vulnerable tendremos un bypass ya que 1=1 es verdadero ingresando sin necesidad de tener credenciales validas.<br>
+*<em>Burp Suite & sqlmap</em><br>
+
+
 
