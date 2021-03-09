@@ -28,8 +28,7 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
   -w ruta del diccionario a utilizar<br>
 ```js
   wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt 
-    
-  ```
+ ```
     
   
   
