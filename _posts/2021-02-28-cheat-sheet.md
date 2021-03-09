@@ -31,17 +31,17 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
  ```
  <em>Inyeccion SQL:</em>    
 * <em>bypass</em><br>
-Aqui podemos ver la parte del front-end de como seria la consulta inyectando el payload admin' or 1=1 -- -<br>
-![](/assets/img/sqli/panel_bypass.png)
-y la back-end de la consulta:<br>
-  ```js
+Esto es una consulta a una base de datos:<br>
+ ```js
   GET * from database WHERE username='$username' and password='$password'
   ```
-  Podemos alterar la consulta con el siguiente strings:<br>
-  en el username colocaremos una comilla simple para hacer que el username se cierre y despues colocamos un or 1=1 que esto dara verdadero y comentaremos la parte
-  del password con -- - el cual indica que lo siguiente que viene no se tome en cuenta, quedando la consulta de esta manera.<br>
-  ```js
+Aqui podemos ver la parte del front-end de como seria la consulta si inyectamos el payload admin ' or 1=1 -- -<br>
+![](/assets/img/sqli/panel_bypass.png)<br>
+Explicacion del payload:<br>
+en el username colocaremos una comilla simple para hacer que el username se cierre y despues colocamos un or 1=1 que esto dara verdadero y comentaremos la parte
+del password con -- - el cual indica que lo siguiente que viene no se tome en cuenta, quedando la consulta de esta manera.<br>
+```js
   GET * from database WHERE username='' or 1=1 -- - and password=''
-  ```
-vemos que en username se abre el con la comilla y se cierra inmediatamente gracias a la comilla que hemos puesto,es decir que queda vacio,agregandole un o en ingles OR y sabiendo que 1=1 siempre es verdadero,comentando el and password si es vulnerable tendremos un bypass ya que 1=1 es verdadero.<br>
+ ```
+vemos que en username se abre con la comilla y se cierra inmediatamente gracias a la comilla que hemos puesto,es decir que queda vacio,agregandole un o en ingles OR y sabiendo que 1=1 siempre es verdadero,comentando el and password con (-- -), si es vulnerable tendremos un bypass ya que 1=1 es verdadero ingresando sin necesidad de tener credenciales validas.<br>
 
