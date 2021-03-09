@@ -22,7 +22,7 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
 <strong>Fuzzing:</strong><br>
 * <em>Wfuzz<br>
   -c salida en color<br>
-  -hc (hidden code) ocultar codigo y el numero de codigo [404, 403, etc]<br>
+  -hc <del>hidden code</del> ocultar codigo y el numero de codigo [404, 403, etc]<br>
   -u direccion del dominio<br>
   FUZZ ubicacion donde se aplicara el fuzzing<br>
   -w ruta del diccionario a utilizar<br>
