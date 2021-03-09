@@ -13,7 +13,8 @@ tags:
   - ciberseguridad
 author: park33r
 ---
-En esta seccion encontraras cheat sheet o hojas de trucos con los comandos mas basicos sin profundisar mucho,para tener los comandos mas usados a la mano
+Un especialista debera saber utilizar un abanico de herramientas bastante completo,debido a la gran cantidad de herramientas existentes, mas de 600 en kali linux y una suma parecida en otras distribucion como puede ser parrot.<br>
+un buen hacker etico tendra que tener una pequeña guia para acordarse de los comandos mas basicos de cara herramienta<br>
 
 <strong>Scanners:</strong><br>
 * <em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
