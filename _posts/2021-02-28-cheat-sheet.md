@@ -29,9 +29,18 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
 ```js
   wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt 
  ```
-    
-  
-  
-  
+<em>Inyeccion SQL:</em>    
+  * <em>bypass<br>
+  Si la consulta a la base de datos a la hora de ingresar desde el panel de login es la siguiente:<br>
+  ```js
+  GET * from database WHERE username='$username' and password='$password'
+  ```
+  Podemos alterar la consulta con el siguiente strings:<br>
+  en el username colocaremos una comilla simple para hacer que el username se cierre y despues colocamos un or 1=1 que esto dara verdadero y comentaremos la parte
+  del password con -- - el cual indica que lo siguiente que viene no se tome en cuenta, quedando la consulta de esta manera.<br>
+  ```js
+  GET * from database WHERE username='' or 1=1 -- - and password=''
+  ```
+  vemos que en username se abre el con la comilla y se cierra inmediatamente gracias a la comilla que hemos puesto,es decir que queda vacio,agregandole un o en ingles OR y sabiendo que 1=1 siempre es verdadero,comentando el and password si es vulnerable tendremos un bypass ya que 1=1 es verdadero.
 
 
