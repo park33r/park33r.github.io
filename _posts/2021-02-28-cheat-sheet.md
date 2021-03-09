@@ -30,7 +30,7 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
   wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt 
  ```
 <em>Inyeccion SQL:</em>    
-  * <em>bypass</em><br>
+* <em>bypass</em><br>
   Si la consulta a la base de datos a la hora de ingresar desde el panel de login es la siguiente:<br>
   ```js
   GET * from database WHERE username='$username' and password='$password'
@@ -41,6 +41,6 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
   ```js
   GET * from database WHERE username='' or 1=1 -- - and password=''
   ```
-  vemos que en username se abre el con la comilla y se cierra inmediatamente gracias a la comilla que hemos puesto,es decir que queda vacio,agregandole un o en ingles OR y sabiendo que 1=1 siempre es verdadero,comentando el and password si es vulnerable tendremos un bypass ya que 1=1 es verdadero.<br>
+vemos que en username se abre el con la comilla y se cierra inmediatamente gracias a la comilla que hemos puesto,es decir que queda vacio,agregandole un o en ingles OR y sabiendo que 1=1 siempre es verdadero,comentando el and password si es vulnerable tendremos un bypass ya que 1=1 es verdadero.<br>
 Aqui podemos ver la parte del front-end de como seria la consulta inyectando el payload admin' or 1=1 -- - y en password se puede dejar vacio ya que tenemos comentado todo lo demas (-- -) y si es obligatorio el campo agregar cualquier caracter.<br>
 ![placeholder](https://github.com/park33r/park33r.github.io/blob/master/assets/img/sqli/panel_bypass.png"bypass")
