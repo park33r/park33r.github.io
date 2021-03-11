@@ -44,7 +44,7 @@ En vez de ocultar paginas con un codigo, flag --hc podemos cambiar por:<br>
 --sl <numero> el cual muestra solo paginas que tengas X numero de lineas<br>
 --sh <numero> con esta opcion muestra solo paginas que tengan X numero de caracteres<br>
 --sw <numero> mostramos solo paginas con X numero de palabras<br><br>
- 
+ cookie<br>
  
  
  
