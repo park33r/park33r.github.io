@@ -20,14 +20,14 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
 * <em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
 
 <em>Fuzzing:<em>
-* <em>Wfuzz<em><br>
-<strongs> wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs><br>
+* Wfuzz<br>
+<strongs>       wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs><br>
   -c salida en color<br>
   --hc (hidden code) ocultar paginas con codigo de estado dado [404, 403, etc]<br>
   -u direccion del dominio<br>
   FUZZ ubicacion donde se aplicara el fuzzing<br>
   -w ruta del diccionario a utilizar.<br><br>
-Podemos en vez de ocultar paginas con un codigo, flag -hc podemos cambiar por:<br>
+Podemos en vez de ocultar paginas con un codigo, flag --hc podemos cambiar por:<br>
 --hl <numero> el cual oculta paginas que tengas X numero de lineas<br>
 --hh <numero> con esta opcion ocultamos paginas que tengs X numero de palabras<br>
  <em>Inyeccion SQL:</em>    
