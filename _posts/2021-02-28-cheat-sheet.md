@@ -21,7 +21,7 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
 
 <em>Fuzzing:<em>
   * Wfuzz<br>
-<strongs>       wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs></dd>
+wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt
 
 -c salida en color<br>
 --hc (hidden code) ocultar paginas con codigo de estado dado [404, 403, etc]<br>
@@ -33,7 +33,7 @@ En vez de ocultar paginas con un codigo, flag --hc podemos cambiar por:<br>
 --hh <numero> con esta opcion ocultamos paginas que tengan X numero de caracteres<br>
 --hw <numero> ocultamos paginas que contengan X numero de palabras<br><br>
   Doble fuzzing:<br>
-<strongs>     wfuzz -c --sc 200 -u https://url.com/FUZZ.FUZ2Z -w usr/share/worlists/rockyou -w ./extenciones.txt </li></strongs><br>
+wfuzz -c --sc 200 -u https://url.com/FUZZ.FUZ2Z -w usr/share/worlists/rockyou -w ./extenciones.txt<br>
 -c salida en color<br>
 --sc (show code) mostrar paginas con codigo de estado dado [200, 403, etc]><br>
 -u direccion del dominio<br>
