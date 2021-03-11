@@ -16,17 +16,17 @@ author: park33r
 Un especialista debera saber utilizar un abanico de herramientas bastante completo,debido a la gran cantidad de herramientas existentes, mas de 600 en kali linux y una suma parecida en otras distribucion como puede ser parrot.<br>
 un buen hacker etico tendra que tener una pequeña guia para orientarse con las mejores herramientas del mercado<br>
 
-<em>Scanners:</em>
+<em>Scanners:<em>
 * <em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
 
-<em>Fuzzing:</em>
-* <em>Wfuzz</em><br>
-<strongs> wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs>
+<em>Fuzzing:<em>
+* <em>Wfuzz<em><br>
+<strongs> wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs><br>
   -c salida en color<br>
-  --hc (hidden code) ocultar codigo y el numero de codigo [404, 403, etc]<br>
+  --hc (hidden code) ocultar paginas con codigo de estado dado [404, 403, etc]<br>
   -u direccion del dominio<br>
   FUZZ ubicacion donde se aplicara el fuzzing<br>
-  -w ruta del diccionario a utilizar<br>
+  -w ruta del diccionario a utilizar.<br><br>
 Podemos en vez de ocultar paginas con un codigo, flag -hc podemos cambiar por:<br>
 --hl <numero> el cual oculta paginas que tengas X numero de lineas<br>
 --hh <numero> con esta opcion ocultamos paginas que tengs X numero de palabras<br>
