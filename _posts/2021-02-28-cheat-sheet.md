@@ -21,29 +21,30 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
 
 <em>Fuzzing:<em>
 * Wfuzz<br>
-<strongs>       wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs><br>
-  -c salida en color<br>
-  --hc (hidden code) ocultar paginas con codigo de estado dado [404, 403, etc]<br>
-  -u direccion del dominio<br>
-  FUZZ ubicacion donde se aplicara el fuzzing<br>
-  -w ruta del diccionario a utilizar.<br><br>
+<strongs>       wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs>
+ <ul>
+   <li -c salida en color</li><br>
+  <li --hc (hidden code) ocultar paginas con codigo de estado dado [404, 403, etc]</li><br>
+  <li -u direccion del dominio</li><br>
+  <li FUZZ ubicacion donde se aplicara el fuzzing</li><br>
+  <li -w ruta del diccionario a utilizar.</li><br><br>
 En vez de ocultar paginas con un codigo, flag --hc podemos cambiar por:<br>
---hl <numero> el cual oculta paginas que tengas X numero de lineas<br>
---hh <numero> con esta opcion ocultamos paginas que tengan X numero de caracteres<br>
---hw <numero> ocultamos paginas que contengan X numero de palabras<br><br>
+<li --hl <numero> el cual oculta paginas que tengas X numero de lineas</li><br>
+<li --hh <numero> con esta opcion ocultamos paginas que tengan X numero de caracteres</li><br>
+<li --hw <numero> ocultamos paginas que contengan X numero de palabras</li><br><br>
   Doble fuzzing:<br>
-  <strongs>     wfuzz -c --sc 200 -u https://url.com/FUZZ.FUZ2Z -w usr/share/worlists/rockyou -w ./extenciones.txt </strongs><br>
-  -c salida en color<br>
-  --sc (show code) mostrar paginas con codigo de estado dado [200, 403, etc]<br>
-  -u direccion del dominio<br>
-  FUZZ ubicacion donde se aplicara el fuzzing<br>
-  FUZ2Z ubicacion donde se aplicara el segundo fuzzing y asi con FUZ3Z, FUZ4Z <br>
-  -w ruta del diccionario a utilizar.<br><br>
-  -w segunda ruta del segundo fuzzer la cual es un archivo con extenciones php txt html y mas<br><br>
-  En vez de mostrar solo paginas con un codigo, flag --sc podemos cambiar por:<br>
---sl <numero> el cual muestra solo paginas que tengas X numero de lineas<br>
---sh <numero> con esta opcion muestra solo paginas que tengan X numero de caracteres<br>
---sw <numero> mostramos solo paginas con X numero de palabras<br><br>
+<li <strongs>     wfuzz -c --sc 200 -u https://url.com/FUZZ.FUZ2Z -w usr/share/worlists/rockyou -w ./extenciones.txt </li></strongs><br>
+  <li -c salida en color</li><br>
+  <li --sc (show code) mostrar paginas con codigo de estado dado [200, 403, etc]</li><br>
+  <li -u direccion del dominio</li><br>
+  <li FUZZ ubicacion donde se aplicara el fuzzing</li><br>
+  <li FUZ2Z ubicacion donde se aplicara el segundo fuzzing y asi con FUZ3Z, FUZ4Z </li><br>
+  <li -w ruta del diccionario a utilizar</li><br>
+  <li -w segunda ruta del segundo fuzzer la cual es un archivo con extenciones php txt html y mas<br><br>
+  En vez de mostrar solo paginas con un codigo, flag --sc podemos cambiar por:</li><br>
+<li --sl <numero> el cual muestra solo paginas que tengas X numero de lineas</li><br>
+<li --sh <numero> con esta opcion muestra solo paginas que tengan X numero de caracteres</li><br>
+<li --sw <numero> mostramos solo paginas con X numero de palabras<br><br>
  cookie<br>
  
  
