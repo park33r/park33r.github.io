@@ -17,7 +17,7 @@ Un especialista debera saber utilizar un abanico de herramientas bastante comple
 un buen hacker etico tendra que tener una pequeña guia para orientarse con las mejores herramientas del mercado<br>
 
 <em>Scanners:<em>
-* <em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
+* <em>[Nmap](https://github.com/park33r/pdf/blob/main/cheat-sheet/nmap.pdf)<br>
 
 <em>Fuzzing:<em>
   * Wfuzz<br>
