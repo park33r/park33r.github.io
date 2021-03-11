@@ -15,36 +15,36 @@ author: park33r
 ---
 Un especialista debera saber utilizar un abanico de herramientas bastante completo,debido a la gran cantidad de herramientas existentes, mas de 600 en kali linux y una suma parecida en otras distribucion como puede ser parrot.<br>
 un buen hacker etico tendra que tener una pequeña guia para orientarse con las mejores herramientas del mercado<br>
-
+<dl>
 <em>Scanners:<em>
 * <em>[Nmap](https://github.com/park33r/park33r.github.io/blob/master/pdf/nmap.pdf)<br>
 
 <em>Fuzzing:<em>
-* Wfuzz<br>
-<strongs>       wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs>
- <ul>
-   <li>-c salida en color</li><br>
-  <li>--hc (hidden code) ocultar paginas con codigo de estado dado [404, 403, etc]</li><br>
-  <li>-u direccion del dominio</li><br>
-  <li>FUZZ ubicacion donde se aplicara el fuzzing</li><br>
-  <li>-w ruta del diccionario a utilizar.</li><br><br>
+  <dt>* Wfuzz<br></dt>
+<dd><strongs>       wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs></dd>
+
+  <dd>-c salida en color</dd><br>
+  <dd>--hc (hidden code) ocultar paginas con codigo de estado dado [404, 403, etc]</dd><br>
+  <dd>-u direccion del dominio</dd><br>
+  <dd>FUZZ ubicacion donde se aplicara el fuzzing</dd><br>
+  <dd>-w ruta del diccionario a utilizar.</dd><br><br>
 En vez de ocultar paginas con un codigo, flag --hc podemos cambiar por:<br>
-<li>--hl <numero> el cual oculta paginas que tengas X numero de lineas</li><br>
-<li>--hh <numero> con esta opcion ocultamos paginas que tengan X numero de caracteres</li><br>
-<li>--hw <numero> ocultamos paginas que contengan X numero de palabras</li><br><br>
+<dd>--hl <numero> el cual oculta paginas que tengas X numero de lineas</dd><br>
+<dd>--hh <numero> con esta opcion ocultamos paginas que tengan X numero de caracteres</dd><br>
+<dd>--hw <numero> ocultamos paginas que contengan X numero de palabras</dd><br><br>
   Doble fuzzing:<br>
-<li><strongs>     wfuzz -c --sc 200 -u https://url.com/FUZZ.FUZ2Z -w usr/share/worlists/rockyou -w ./extenciones.txt </li></strongs><br>
-  <li>-c salida en color</li><br>
-  <li>--sc (show code) mostrar paginas con codigo de estado dado [200, 403, etc]</li><br>
-  <li>-u direccion del dominio</li><br>
-  <li>FUZZ ubicacion donde se aplicara el fuzzing</li><br>
-  <li>FUZ2Z ubicacion donde se aplicara el segundo fuzzing y asi con FUZ3Z, FUZ4Z </li><br>
-  <li>-w ruta del diccionario a utilizar</li><br>
-  <li>-w segunda ruta del segundo fuzzer la cual es un archivo con extenciones php txt html y mas<br><br>
-  En vez de mostrar solo paginas con un codigo, flag --sc podemos cambiar por:</li><br>
-<li>--sl <numero> el cual muestra solo paginas que tengas X numero de lineas</li><br>
-<li>--sh <numero> con esta opcion muestra solo paginas que tengan X numero de caracteres</li><br>
-<li>--sw <numero> mostramos solo paginas con X numero de palabras<br><br>
+<dd><strongs>     wfuzz -c --sc 200 -u https://url.com/FUZZ.FUZ2Z -w usr/share/worlists/rockyou -w ./extenciones.txt </li></strongs><br>
+  <dd>-c salida en color</dd><br>
+  <dd>--sc (show code) mostrar paginas con codigo de estado dado [200, 403, etc]</dd><br>
+  <dd>-u direccion del dominio</dd><br>
+  <dd>FUZZ ubicacion donde se aplicara el fuzzing</dd><br>
+  <dd>FUZ2Z ubicacion donde se aplicara el segundo fuzzing y asi con FUZ3Z, FUZ4Z</dd><br>
+  <dd>-w ruta del diccionario a utilizar</dd><br>
+  <dd>-w segunda ruta del segundo fuzzer la cual es un archivo con extenciones php txt html y mas<br><br>
+  En vez de mostrar solo paginas con un codigo, flag --sc podemos cambiar por:</dd><br>
+<dd>--sl <numero> el cual muestra solo paginas que tengas X numero de lineas</dd><br>
+<dd>--sh <numero> con esta opcion muestra solo paginas que tengan X numero de caracteres</dd><br>
+<dd>--sw <numero> mostramos solo paginas con X numero de palabras<br><br>
  cookie<br>
  
  
