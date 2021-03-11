@@ -27,9 +27,37 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
   -u direccion del dominio<br>
   FUZZ ubicacion donde se aplicara el fuzzing<br>
   -w ruta del diccionario a utilizar.<br><br>
-Podemos en vez de ocultar paginas con un codigo, flag --hc podemos cambiar por:<br>
+En vez de ocultar paginas con un codigo, flag --hc podemos cambiar por:<br>
 --hl <numero> el cual oculta paginas que tengas X numero de lineas<br>
---hh <numero> con esta opcion ocultamos paginas que tengs X numero de palabras<br>
+--hh <numero> con esta opcion ocultamos paginas que tengan X numero de caracteres<br><br>
+  Doble fuzzing:<br>
+  <strongs>     wfuzz -c --sc 200 -u https://url.com/FUZZ.FUZ2Z -w usr/share/worlists/rockyou -w ./extenciones.txt </strongs><br>
+  -c salida en color<br>
+  --sc (show code) mostrar paginas con codigo de estado dado [404, 403, etc]<br>
+  -u direccion del dominio<br>
+  FUZZ ubicacion donde se aplicara el fuzzing<br>
+  FUZ2Z ubicacion donde se aplicara el segundo fuzzing y asi con FUZ3Z, FUZ4Z <br>
+  -w ruta del diccionario a utilizar.<br><br>
+  -w segunda ruta del segundo fuzzer la cual es un archivo con extenciones php txt html y mas<br><br>
+  En vez de mostrar solo paginas con un codigo, flag --sc podemos cambiar por:<br>
+--sl <numero> el cual muestra solo paginas que tengas X numero de lineas<br>
+--sh <numero> con esta opcion muestra solo paginas que tengan X numero de caracteres<br><br>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  <em>Inyeccion SQL:</em>    
 * <em>bypass</em><br>
 Esto es una consulta a una base de datos para iniciar sesion:<br>
