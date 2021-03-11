@@ -21,14 +21,15 @@ un buen hacker etico tendra que tener una pequeña guia para orientarse con las 
 
 <em>Fuzzing:</em>
 * <em>Wfuzz</em><br>
+<strongs> wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt </strongs>
   -c salida en color<br>
-  -hc (hidden code) ocultar codigo y el numero de codigo [404, 403, etc]<br>
+  --hc (hidden code) ocultar codigo y el numero de codigo [404, 403, etc]<br>
   -u direccion del dominio<br>
   FUZZ ubicacion donde se aplicara el fuzzing<br>
   -w ruta del diccionario a utilizar<br>
-```js
-  wfuzz -c --hc 404 -u http://url.com/FUZZ -w usr/share/wordlist/rockyou.txt 
- ```
+Podemos en vez de ocultar paginas con un codigo, flag -hc podemos cambiar por:<br>
+--hl <numero> el cual oculta paginas que tengas X numero de lineas<br>
+--hh <numero> con esta opcion ocultamos paginas que tengs X numero de palabras<br>
  <em>Inyeccion SQL:</em>    
 * <em>bypass</em><br>
 Esto es una consulta a una base de datos para iniciar sesion:<br>
